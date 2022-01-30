@@ -3,7 +3,9 @@
 
 int main()
 {
-	for (int i = 0; i < 10000; i++)
+	//system("mode 75, 20");
+
+	for (int i = 0; i < 1000000; i++)
 	{
 		if (i == 0 || i % 5 == 0)
 		{
