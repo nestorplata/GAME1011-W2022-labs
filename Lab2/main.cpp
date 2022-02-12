@@ -1,19 +1,18 @@
 #include "Eskeleton.h"
-#include "Dark Orc.h"
+#include "DarkOrc.h"
 #include "Troll.h"
 
 int main()
 {
-	Enemy* m_skeleton = new Eskeleton();
-	Enemy* m_troll = new Troll();
-	Enemy* m_orc = new Orc();
-	Enemy* m_DarkOrc = new DarkOrc();
-	Enemy* Object[4];
-	
-	m_skeleton->Attack();
-	m_troll->Attack();
-	m_orc->Attack();
-	m_DarkOrc->Attack();
+	Enemy* pSkeleton = new Eskeleton();
+	Enemy* pTroll = new Troll();
+	Enemy* pOrc = new Orc();
+	Enemy* pDarkOrc = new DarkOrc();
+
+	pSkeleton->Attack();
+	pTroll->Attack();
+	pOrc->Attack();
+	pDarkOrc->Attack();
 
 	system("pause");
 	return 0;

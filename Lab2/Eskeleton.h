@@ -14,5 +14,4 @@ public:
 		std::cout << "Eskeleton: " << getWarcry() << " \"Hits Two quick attacks\"" << std::endl;
 		std::cout << "Deals " << getDamage()<< " damage to the opponent " << std::endl;
 	}
-
 };

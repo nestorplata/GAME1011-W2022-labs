@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Dark Orc.h" />
+    <ClInclude Include="DarkOrc.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Eskeleton.h" />
     <ClInclude Include="Orc.h" />

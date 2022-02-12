@@ -7,23 +7,21 @@
 class Enemy{
 public:
 	Enemy() {
-		Damage = 10;
-		Warcry = "Roar!";
+		m_Damage = 10;
+		m_Warcry = "Roar!";
 	}
 
-	int getDamage() { return Damage; }
-	std::string getWarcry() { return Warcry; }
+	int getDamage() { return m_Damage; }
+	std::string getWarcry() { return m_Warcry; }
 
-	void setDamage(int points) { Damage = points; }
-	void setWarcry(std::string roar ) { Warcry = roar; }
+	void setDamage(int points) { m_Damage = points; }
+	void setWarcry(std::string roar ) { m_Warcry = roar; }
 
 	virtual void Attack() = 0;
 	//std::cout << "Enemy: " << Warcry << std::endl;
 	//std::cout << "Deals " << Damage << " Damage To Oponent " << std::endl;
 
 private:
-	int Damage;
-	std::string Warcry;
-
-
+	int m_Damage;
+	std::string m_Warcry;
 };

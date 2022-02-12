@@ -27,7 +27,7 @@
     <ClInclude Include="Orc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Dark Orc.h">
+    <ClInclude Include="DarkOrc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
